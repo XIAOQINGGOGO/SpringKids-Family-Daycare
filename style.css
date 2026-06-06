@@ -36,8 +36,7 @@ body {
 .logo-icon img {
   width: 45px;
   height: 45px;
-  object-fit: cover;
-  border-radius: 50%;
+  object-fit: contain;
 }
 .logo h1 {
   font-size: 1.8rem;
