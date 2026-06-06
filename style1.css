@@ -370,3 +370,10 @@ footer {
     text-align: center;
   }
 }
+.logo h1,
+.logo h2,
+.logo-title,
+.logo-text,
+.logo div h1 {
+  color: #5FAF3A !important;
+}
