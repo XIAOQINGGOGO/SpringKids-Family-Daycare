@@ -33,11 +33,11 @@ body {
   color: #6f9655;
 }
 .logo-icon {
-  margin-right: -90px;
+  margin-right: -60px;
 }
 .logo-icon img {
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
 }
 
