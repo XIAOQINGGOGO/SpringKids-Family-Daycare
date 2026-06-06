@@ -29,7 +29,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 2px;
   color: #6f9655;
 }
 .logo-icon {
