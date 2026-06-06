@@ -41,14 +41,14 @@ body {
 }
 .logo h1 {
   font-size: 1.8rem;
+  margin: 0;
 }
-
 .logo p {
   font-size: 0.75rem;
   letter-spacing: 2px;
   color: #555;
+  margin: 0;
 }
-
 .logo-icon {
   font-size: 2rem;
 }
