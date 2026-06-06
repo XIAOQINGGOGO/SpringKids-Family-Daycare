@@ -81,11 +81,16 @@
     <div>
       <p>Play Area</p>
     </div>
-    <div>
-      <img src="learning-time1.png" alt="Learning Time 1">
-      <img src="learning-time2.png" alt="Learning Time 2">
-      <p>Learning Time</p>
-    </div>
+   <div>
+  <img id="learningPhoto"
+       src="learning-time1.jpg"
+       alt="Learning Time"
+       class="gallery-photo">
+
+  <div class="gallery-controls">
+    <button onclick="prevPhoto()">❮</button>
+    <button onclick="nextPhoto()">❯</button>
+  </div>
     <div>
       <p>Art Activities</p>
     </div>
@@ -110,6 +115,23 @@
 <footer>
   <p>© 2026 SpringKids Family Daycare LLC. All Rights Reserved.</p>
 </footer>
+<script>
+const photos = [
+  "learning-time1.jpg",
+  "learning-time2.jpg"
+];
 
+let currentPhoto = 0;
+
+function nextPhoto() {
+  currentPhoto = (currentPhoto + 1) % photos.length;
+  document.getElementById("learningPhoto").src = photos[currentPhoto];
+}
+
+function prevPhoto() {
+  currentPhoto = (currentPhoto - 1 + photos.length) % photos.length;
+  document.getElementById("learningPhoto").src = photos[currentPhoto];
+}
+</script>
 </body>
 </html>
