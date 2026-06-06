@@ -1,28 +1,105 @@
-.hero-new {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fbfbf3;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: white;
+  padding: 18px 7%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #6f9655;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+}
+
+.logo p {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+.logo-icon {
+  font-size: 2rem;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #6f9655;
+}
+
+.tour-btn,
+.btn {
+  background: #6f9655;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-outline {
+  border: 2px solid #6f9655;
+  color: #6f9655;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
   background: #fbfbf3;
-  padding: 80px 7%;
+  padding: 70px 7%;
   gap: 40px;
 }
 
 .hero-text {
   flex: 1;
-  text-align: left;
 }
 
 .welcome {
   color: #6f9655;
   font-size: 1.3rem;
-  margin-bottom: 10px;
 }
 
 .hero-text h2 {
   font-size: 4rem;
   line-height: 1.1;
-  color: #333;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .hero-text h2 span {
@@ -32,36 +109,17 @@
 .hero-text h3 {
   color: #6f9655;
   font-size: 1.8rem;
-  margin-bottom: 20px;
 }
 
 .hero-text p {
   font-size: 1.1rem;
-  max-width: 480px;
-  margin-bottom: 25px;
+  max-width: 500px;
 }
 
 .hero-buttons {
   display: flex;
   gap: 15px;
-}
-
-.btn {
-  background: #6f9655;
-  color: white;
-  padding: 14px 30px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn-outline {
-  border: 2px solid #6f9655;
-  color: #6f9655;
-  padding: 12px 30px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
+  margin-top: 25px;
 }
 
 .hero-image {
@@ -70,6 +128,8 @@
 
 .hero-image img {
   width: 100%;
+  height: 480px;
+  object-fit: cover;
   border-radius: 0 0 0 80px;
 }
 
@@ -79,10 +139,11 @@
   padding: 60px 7%;
 }
 
-.why-us h2 {
+.why-us h2,
+.section h2 {
   color: #4f5b43;
-  margin-bottom: 40px;
   font-size: 2rem;
+  margin-bottom: 30px;
 }
 
 .features {
@@ -96,7 +157,6 @@
 }
 
 .icon {
-  font-size: 2.5rem;
   background: white;
   width: 80px;
   height: 80px;
@@ -105,38 +165,98 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 2rem;
+}
+
+.section {
+  padding: 70px 7%;
+  text-align: center;
+}
+
+.section p {
+  max-width: 800px;
+  margin: 0 auto 25px;
+  font-size: 1.1rem;
+}
+
+.light {
+  background: #f7f9ef;
+}
+
+.cards,
+.gallery-grid {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card,
+.gallery-grid div {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.card h3 {
   color: #6f9655;
+  margin-bottom: 10px;
 }
 
-.features h3 {
-  color: #4f5b43;
-  margin-bottom: 8px;
+.gallery-grid div {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6f9655;
+  font-weight: bold;
 }
 
-.features p {
-  font-size: 0.95rem;
+.contact p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #4f5b43;
+  color: white;
+  text-align: center;
+  padding: 25px;
 }
 
 @media (max-width: 768px) {
-  .hero-new {
+  .navbar,
+  .hero {
     flex-direction: column;
     text-align: center;
   }
 
-  .hero-text {
-    text-align: center;
+  nav {
+    margin: 15px 0;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
   }
 
   .hero-text h2 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
+  }
+
+  .hero-buttons,
+  .cards,
+  .gallery-grid,
+  .features {
+    flex-direction: column;
   }
 
   .hero-buttons {
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
   }
 
-  .features {
-    flex-direction: column;
+  .hero-image img {
+    height: 350px;
+    border-radius: 30px;
   }
 }
