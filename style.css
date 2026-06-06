@@ -38,6 +38,7 @@ body {
 .logo-icon img {
   width: 75px;
   height: 75px;
+  object-fit: contain;
 }
 
 .logo div:last-child {
