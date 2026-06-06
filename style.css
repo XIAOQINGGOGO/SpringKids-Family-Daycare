@@ -33,7 +33,11 @@ body {
   gap: 12px;
   color: #6f9655;
 }
-
+.logo-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
 .logo h1 {
   font-size: 1.8rem;
 }
