@@ -26,20 +26,19 @@ body {
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  color: #6f9655;
+}
 .logo-icon {
+  margin-right: -35px;
+}
+.logo-icon img {
   width: 45px;
   height: 45px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.logo-icon img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  object-position: center;
-  transform: translate(-22px, -22px);
+  object-fit: contain;
 }
 
 .logo div:last-child {
