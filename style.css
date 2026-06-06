@@ -27,17 +27,6 @@ body {
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  color: #6f9655;
-}
-.logo-icon img {
-  width: 45px;
-  height: 45px;
-  object-fit: contain;
-}
 .logo-icon {
   width: 45px;
   height: 45px;
