@@ -30,12 +30,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 2px;
   color: #6f9655;
 }
 .logo-icon img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   object-fit: cover;
   border-radius: 50%;
 }
