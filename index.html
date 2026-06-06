@@ -81,21 +81,36 @@
     <div>
       <p>Play Area</p>
     </div>
-   <div>
-  <img id="learningPhoto"
-       src="learning-time1.png"
-       alt="Learning Time"
-       class="gallery-photo">
+   <section id="gallery" class="section">
+  <h2>Gallery</h2>
 
-  <div class="gallery-controls">
-    <button onclick="prevPhoto()">❮</button>
-    <button onclick="nextPhoto()">❯</button>
-  </div>
-     <p>Learning Time</p>
-</div>
-    <div>
+  <div class="gallery-grid">
+
+    <div class="gallery-card">
+      <p>Play Area</p>
+    </div>
+
+    <div class="gallery-card">
+      <div class="photo-slider">
+
+        <button class="arrow left-arrow" onclick="prevPhoto()">❮</button>
+
+        <img id="learningPhoto"
+             src="learning-time1.png"
+             alt="Learning Time"
+             class="gallery-photo">
+
+        <button class="arrow right-arrow" onclick="nextPhoto()">❯</button>
+
+      </div>
+
+      <p>Learning Time</p>
+    </div>
+
+    <div class="gallery-card">
       <p>Art Activities</p>
     </div>
+
   </div>
 </section>
 <section id="enrollment" class="section light">
