@@ -30,7 +30,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 0px;
   color: #6f9655;
 }
 .logo-icon img {
