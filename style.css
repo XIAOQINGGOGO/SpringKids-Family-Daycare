@@ -38,6 +38,24 @@ body {
   height: 45px;
   object-fit: contain;
 }
+.logo-icon {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logo-icon img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  transform: translate(-22px, -22px);
+}
+
+.logo div:last-child {
+  margin-left: 4px;
+}
 .logo h1 {
   font-size: 1.8rem;
   margin: 0;
