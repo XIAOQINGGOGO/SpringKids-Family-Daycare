@@ -377,3 +377,13 @@ footer {
 .logo div h1 {
   color: #5FAF3A !important;
 }
+.navbar-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#google_translate_element {
+  font-size: 12px;
+}
