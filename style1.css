@@ -399,7 +399,7 @@ footer {
 .popup {
   display: none;
   position: fixed;
-  z-index: 2000;
+  z-index: 3000;
   left: 0;
   top: 0;
   width: 100%;
@@ -422,19 +422,4 @@ footer {
   right: 20px;
   font-size: 28px;
   cursor: pointer;
-}
-
-.enrollment-form label {
-  display: block;
-  margin-top: 12px;
-  font-weight: bold;
-}
-
-.enrollment-form input,
-.enrollment-form select {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
 }
