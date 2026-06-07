@@ -387,3 +387,12 @@ footer {
 #google_translate_element {
   font-size: 12px;
 }
+.wechat-section {
+  margin-top: 20px;
+}
+
+.wechat-qrcode {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
