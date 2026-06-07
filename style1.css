@@ -396,30 +396,45 @@ footer {
   height: 180px;
   border-radius: 10px;
 }
-.enrollment-form {
-max-width: 700px;
-margin: 30px auto 0;
-text-align: left;
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+  background: white;
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
 }
 
 .enrollment-form label {
-display: block;
-margin-top: 15px;
-margin-bottom: 5px;
-font-weight: bold;
-color: #4f5b43;
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
 }
 
 .enrollment-form input,
-.enrollment-form select,
-.enrollment-form textarea {
-width: 100%;
-padding: 12px;
-border: 1px solid #ddd;
-border-radius: 10px;
-font-size: 1rem;
-}
-
-.enrollment-form button {
-margin-top: 20px;
+.enrollment-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
