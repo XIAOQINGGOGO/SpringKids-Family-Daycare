@@ -396,3 +396,30 @@ footer {
   height: 180px;
   border-radius: 10px;
 }
+.enrollment-form {
+max-width: 700px;
+margin: 30px auto 0;
+text-align: left;
+}
+
+.enrollment-form label {
+display: block;
+margin-top: 15px;
+margin-bottom: 5px;
+font-weight: bold;
+color: #4f5b43;
+}
+
+.enrollment-form input,
+.enrollment-form select,
+.enrollment-form textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 10px;
+font-size: 1rem;
+}
+
+.enrollment-form button {
+margin-top: 20px;
+}
