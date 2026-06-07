@@ -392,9 +392,9 @@ footer {
 }
 
 .wechat-qrcode {
-  width: 180px;
-  height: 180px;
-  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
 }
 .popup {
   display: none;
