@@ -117,38 +117,51 @@
     Please reach out to schedule a tour or join our waitlist.
   </p>
   <a href="#contact" class="btn">Ask About Enrollment</a>
-    <form class="enrollment-form">
+    <section id="enrollment" class="section light">
+  <h2>Enrollment</h2>
 
-    <label>Child's Name</label>
-    <input type="text" placeholder="Enter child's name">
+  <p>
+    We welcome families to contact us for availability, program details,
+    and enrollment information. Please reach out to schedule a tour
+    or join our waitlist.
+  </p>
 
-    <label>Child's Age</label>
-    <input type="number" placeholder="Enter child's age">
+  <div id="enrollmentPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closeForm()">&times;</span>
 
-    <label>Gender</label>
-    <select>
-      <option>Select Gender</option>
-      <option>Female</option>
-      <option>Male</option>
-      <option>Prefer Not to Say</option>
-    </select>
+      <h2>Enrollment Inquiry</h2>
 
-    <label>Parent / Guardian Name</label>
-    <input type="text" placeholder="Enter parent name">
+      <form class="enrollment-form">
+        <label>Child's Name</label>
+        <input type="text" placeholder="Enter child's name">
 
-    <label>Phone Number</label>
-    <input type="tel" placeholder="Enter phone number">
+        <label>Child's Age</label>
+        <input type="number" placeholder="Enter child's age">
 
-    <label>Email Address</label>
-    <input type="email" placeholder="Enter email address">
+        <label>Gender</label>
+        <select>
+          <option>Select Gender</option>
+          <option>Female</option>
+          <option>Male</option>
+          <option>Prefer Not to Say</option>
+        </select>
 
-    <button type="submit" class="btn">
-      Submit Inquiry
-    </button>
+        <label>Parent / Guardian Name</label>
+        <input type="text" placeholder="Enter parent name">
 
-  </form>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
 
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter email address">
+
+        <button type="submit" class="btn">Submit Inquiry</button>
+      </form>
+    </div>
+  </div>
 </section>
+  <button class="btn" onclick="openForm()">Ask About Enrollment</button>
 </section>
 
 <section id="contact" class="section contact">
