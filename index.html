@@ -120,10 +120,20 @@
 
     <!-- Art Activities -->
     <div class="gallery-card">
-      <p>Art Activities</p>
-    </div>
+  <p>Art Activities</p>
 
+  <div class="photo-slider">
+    <button class="arrow left-arrow" onclick="prevArt()">❮</button>
+
+    <img
+      id="artPhoto"
+      src="art1.JPG"
+      alt="Art Activities"
+      class="gallery-photo">
+
+    <button class="arrow right-arrow" onclick="nextArt()">❯</button>
   </div>
+</div>
 </section>
 <section id="enrollment" class="section light">
   <h2>Enrollment</h2>
@@ -232,6 +242,24 @@ function prevMeal() {
   document.getElementById("mealPhoto").src = mealPhotos[currentMeal];
 }
 </script>
+  const artPhotos = [
+  "art1.JPG",
+  "art2.JPG",
+  "art3.JPG",
+  "art4.JPG"
+];
+
+let currentArt = 0;
+
+function nextArt() {
+  currentArt = (currentArt + 1) % artPhotos.length;
+  document.getElementById("artPhoto").src = artPhotos[currentArt];
+}
+
+function prevArt() {
+  currentArt = (currentArt - 1 + artPhotos.length) % artPhotos.length;
+  document.getElementById("artPhoto").src = artPhotos[currentArt];
+}
   <script>
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
