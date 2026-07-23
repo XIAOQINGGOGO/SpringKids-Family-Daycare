@@ -253,7 +253,6 @@ nav a:hover {
 .photo-slider {
     position: relative;
     width: 100%;
-    overflow: visible;
 }
 
 .gallery-photo {
