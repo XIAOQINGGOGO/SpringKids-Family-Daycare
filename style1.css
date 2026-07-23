@@ -230,7 +230,7 @@ nav a:hover {
   margin-top: 30px;
 }
 
-.gallery-card {
+/*.gallery-card {
   background: white;
   border-radius: 20px;
   padding: 25px;
@@ -241,6 +241,12 @@ nav a:hover {
 
   display: flex;
   flex-direction: column;
+}*/
+.gallery-card p {
+    font-size: 1.6rem;
+    color: #6f9655;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .gallery-card p {
