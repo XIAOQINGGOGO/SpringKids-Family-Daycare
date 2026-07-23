@@ -83,44 +83,46 @@
 
   <div class="gallery-grid">
 
+    <!-- Play Area -->
     <div class="gallery-card">
       <p>Play Area</p>
     </div>
 
+    <!-- Learning Time -->
     <div class="gallery-card">
+      <p>Learning Time</p>
 
-      <div class="gallery-card">
+      <div class="photo-slider">
+        <button class="arrow left-arrow" onclick="prevPhoto()">❮</button>
 
-  <p>Healthy Meals</p>
+        <img
+          id="learningPhoto"
+          src="learning-time2.png"
+          alt="Learning Time"
+          class="gallery-photo">
 
-  <div class="photo-slider">
-    <button class="arrow left-arrow" onclick="prevMeal()">❮</button>
+        <button class="arrow right-arrow" onclick="nextPhoto()">❯</button>
+      </div>
+    </div>
 
-    <img id="mealPhoto"
-         src="FOOD1.png"
-         alt="Healthy Meals"
-         class="gallery-photo">
+    <!-- Healthy Meals -->
+    <div class="gallery-card">
+      <p>Healthy Meals</p>
 
-    <button class="arrow right-arrow" onclick="nextMeal()">❯</button>
-  </div>
+      <div class="photo-slider">
+        <button class="arrow left-arrow" onclick="prevMeal()">❮</button>
 
-</div>
+        <img
+          id="mealPhoto"
+          src="FOOD1.png"
+          alt="Healthy Meals"
+          class="gallery-photo">
 
-  <p>Learning Time</p>
+        <button class="arrow right-arrow" onclick="nextMeal()">❯</button>
+      </div>
+    </div>
 
-  <div class="photo-slider">
-    <button class="arrow left-arrow" onclick="prevPhoto()">❮</button>
-
-    <img id="learningPhoto"
-         src="learning-time2.png"
-         alt="Learning Time"
-         class="gallery-photo">
-
-    <button class="arrow right-arrow" onclick="nextPhoto()">❯</button>
-  </div>
-
-</div>
-
+    <!-- Art Activities -->
     <div class="gallery-card">
       <p>Art Activities</p>
     </div>
