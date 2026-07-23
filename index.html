@@ -216,6 +216,25 @@ function prevPhoto() {
 }
 </script>
   <script>
+const mealPhotos = [
+  "FOOD1.png",
+  "food2.JPG",
+  "food3.JPG"
+];
+
+let currentMeal = 0;
+
+function nextMeal() {
+  currentMeal = (currentMeal + 1) % mealPhotos.length;
+  document.getElementById("mealPhoto").src = mealPhotos[currentMeal];
+}
+
+function prevMeal() {
+  currentMeal = (currentMeal - 1 + mealPhotos.length) % mealPhotos.length;
+  document.getElementById("mealPhoto").src = mealPhotos[currentMeal];
+}
+</script>
+  <script>
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
     {
