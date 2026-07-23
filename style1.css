@@ -221,43 +221,7 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-/* Gallery */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  margin-top: 30px;
-}
 
-.gallery-card {
-  background: white;
-  padding: 25px;
-  border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
-  text-align: center;
-}
-
-.gallery-card p {
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #6f9655;
-  font-size: 1.4rem;
-}
-
-.photo-slider {
-  position: relative;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-.gallery-photo {
-    width:100%;
-    max-width:100%;
-    max-height:350px;
-    object-fit:contain;
-    display:block;
-    margin:auto;
-}
 /* Gallery */
 .gallery-grid {
   display: grid;
