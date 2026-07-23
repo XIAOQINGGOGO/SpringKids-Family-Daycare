@@ -252,10 +252,10 @@ nav a:hover {
 }
 .gallery-photo {
   width: 100%;
-  height: auto;
-  max-height: 320px;
+  height: 220px;
   object-fit: contain;
   border-radius: 15px;
+  background: #fff;
 }
 /* Gallery */
 .gallery-grid {
