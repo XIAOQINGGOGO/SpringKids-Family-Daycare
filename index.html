@@ -242,6 +242,7 @@ function prevMeal() {
   document.getElementById("mealPhoto").src = mealPhotos[currentMeal];
 }
 </script>
+  <script>
   const artPhotos = [
   "art1.JPG",
   "art2.JPG",
@@ -259,6 +260,7 @@ function prevArt() {
   currentArt = (currentArt - 1 + artPhotos.length) % artPhotos.length;
   document.getElementById("artPhoto").src = artPhotos[currentArt];
 }
+  </script>
   <script>
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
