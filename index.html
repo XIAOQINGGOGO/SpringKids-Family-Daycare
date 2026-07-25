@@ -37,6 +37,7 @@
   <div class="navbar-right">
     <a href="#contact" class="tour-btn">Schedule a Tour</a>
     <div id="google_translate_element"></div>
+    <div id="mobile_translate"></div>           <!-- Mobile -->
   </div>
 
   <!-- Mobile Menu Button -->
@@ -312,16 +313,29 @@ function prevArt() {
   document.getElementById("artPhoto").src = artPhotos[currentArt];
 }
 </script>
-  <script>
+<script>
 function googleTranslateElementInit() {
+
+  // Desktop Translator
   new google.translate.TranslateElement(
     {
-      pageLanguage: 'en',
-      includedLanguages: 'en,zh-CN,es',
+      pageLanguage: "en",
+      includedLanguages: "en,zh-CN,es",
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE
     },
-    'google_translate_element'
+    "google_translate_element"
   );
+
+  // Mobile Translator
+  new google.translate.TranslateElement(
+    {
+      pageLanguage: "en",
+      includedLanguages: "en,zh-CN,es",
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    },
+    "mobile_translate"
+  );
+
 }
 </script>
 
