@@ -247,13 +247,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.gallery-card p {
-  font-size: 1.6rem;
-  color: #6f9655;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
 .photo-slider {
     position: relative;
     width: 100%;
