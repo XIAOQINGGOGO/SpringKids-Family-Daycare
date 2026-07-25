@@ -415,6 +415,23 @@ footer {
       text-align:center;
       padding:30px 5%;
   }
+  .hero-text h2{
+    font-size: 1.3rem !important;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
+.hero-text h3{
+    font-size: 0.65rem !important;
+}
+
+.welcome{
+    font-size: 0.6rem !important;
+}
+
+.hero-text p{
+    font-size: 0.55rem !important;
+}
 
   .hero-buttons{
       justify-content:center;
