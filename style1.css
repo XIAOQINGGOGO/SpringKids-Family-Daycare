@@ -292,7 +292,7 @@ footer {
   padding: 25px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .navbar,
   .hero {
     flex-direction: column;
@@ -338,9 +338,9 @@ footer {
   .navbar {
     flex-direction: column;
     align-items: center;
-  }
+  }*/
 
-  .logo {
+  /*.logo {
     flex-direction: column;
     align-items: center;
     gap: 8px;
@@ -422,4 +422,141 @@ footer {
   right: 20px;
   font-size: 28px;
   cursor: pointer;
+}*/
+/* ===========================
+   Mobile (Phones)
+=========================== */
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 5%;
+    gap: 10px;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .logo-icon {
+    margin-right: 0;
+  }
+
+  .logo-icon img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .logo p {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 5px 0;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .navbar-right {
+    gap: 8px;
+  }
+
+  .tour-btn {
+    padding: 10px 24px;
+    font-size: 15px;
+  }
+
+  #google_translate_element {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 6%;
+    gap: 25px;
+  }
+
+  .hero-text {
+    order: 1;
+  }
+
+  .hero-image {
+    order: 2;
+  }
+
+  .hero-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .btn,
+  .btn-outline {
+    width: 220px;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-photo {
+    height: 240px;
+  }
+
+  .wechat-qrcode {
+    width: 160px;
+    height: 160px;
+  }
+
+  .section {
+    padding: 50px 6%;
+  }
 }
