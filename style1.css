@@ -455,7 +455,8 @@ footer {
       grid-template-columns:1fr;
   }
   .wechat-qrcode{
-    max-width: 220px;
+    width: 70%;
+    max-width: 180px;
 }
 
 }
