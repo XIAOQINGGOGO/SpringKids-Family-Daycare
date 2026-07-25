@@ -129,24 +129,75 @@
       
     <!-- Play Area -->
     
-<div class="gallery-card">
-  <p>Play Area</p>
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
 
-  <div class="photo-slider">
-    <button class="arrow left-arrow" onclick="prevPlay()">❮</button>
+  <div class="gallery-grid">
 
-    <img
-      id="playPhoto"
-      src="play1.JPG"
-      alt="Play Area"
-      class="gallery-photo">
+    <!-- Learning Time -->
+    <div class="gallery-card">
+      <p>Learning Time</p>
 
-    <button class="arrow right-arrow" onclick="nextPlay()">❯</button>
+      <div class="photo-slider">
+        <button class="arrow left-arrow" onclick="prevPhoto()">❮</button>
+
+        <img id="learningPhoto"
+             src="learning1.JPG"
+             class="gallery-photo">
+
+        <button class="arrow right-arrow" onclick="nextPhoto()">❯</button>
+      </div>
+    </div>
+
+    <!-- Healthy Meals -->
+    <div class="gallery-card">
+      <p>Healthy Meals</p>
+
+      <div class="photo-slider">
+        <button class="arrow left-arrow" onclick="prevMeal()">❮</button>
+
+        <img id="mealPhoto"
+             src="food2.JPG"
+             class="gallery-photo">
+
+        <button class="arrow right-arrow" onclick="nextMeal()">❯</button>
+      </div>
+    </div>
+
+    <!-- Art Activities -->
+    <div class="gallery-card">
+      <p>Art Activities</p>
+
+      <div class="photo-slider">
+        <button class="arrow left-arrow" onclick="prevArt()">❮</button>
+
+        <img id="artPhoto"
+             src="art1.JPG"
+             alt="Art Activities"
+             class="gallery-photo">
+
+        <button class="arrow right-arrow" onclick="nextArt()">❯</button>
+      </div>
+    </div>
+
+    <!-- Play Area -->
+    <div class="gallery-card">
+      <p>Play Area</p>
+
+      <div class="photo-slider">
+        <button class="arrow left-arrow" onclick="prevPlay()">❮</button>
+
+        <img id="playPhoto"
+             src="play1.JPG"
+             alt="Play Area"
+             class="gallery-photo">
+
+        <button class="arrow right-arrow" onclick="nextPlay()">❯</button>
+      </div>
+    </div>
+
   </div>
 
-   
-   
-</div>
 </section>
 <section id="enrollment" class="section light">
   <h2>Enrollment</h2>
