@@ -156,7 +156,7 @@ nav a:hover {
 
 .welcome {
   color: #6f9655;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .hero-text h2 {
@@ -454,6 +454,9 @@ footer {
      .gallery-grid{
       grid-template-columns:1fr;
   }
+  .wechat-qrcode{
+    max-width: 220px;
+}
 
 }
 
