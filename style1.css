@@ -434,7 +434,9 @@ footer {
       flex-direction:column;
   }
 
-  .gallery-grid{
+     .gallery-grid{
       grid-template-columns:1fr;
   }
+
+}
 
