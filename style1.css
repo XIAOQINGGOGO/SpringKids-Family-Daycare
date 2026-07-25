@@ -38,8 +38,8 @@ body {
 }
 
 .logo-icon img {
-  width: 110px;
-  height: 110px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
 }
 
@@ -50,7 +50,7 @@ body {
 .logo h1 {
   font-family: 'Pacifico', cursive;
   color: #98FB98;
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   margin: 0;
 }
 
@@ -97,8 +97,8 @@ nav a:hover {
   display: flex;
   align-items: center;
   background: #fbfbf3;
-  padding: 70px 7%;
-  gap: 40px;
+  padding: 25px 6%;
+  gap: 15px;
 }
 
 .hero-text {
