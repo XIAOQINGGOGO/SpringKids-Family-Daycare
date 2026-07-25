@@ -230,18 +230,16 @@ nav a:hover {
   margin-top: 30px;
 }
 
-/*.gallery-card {
+.gallery-card {
   background: white;
   border-radius: 20px;
   padding: 25px;
   box-shadow: 0 5px 15px rgba(0,0,0,.06);
   text-align: center;
 
-  min-height: 420px;
-
   display: flex;
   flex-direction: column;
-}*/
+}
 .gallery-card p {
     font-size: 1.6rem;
     color: #6f9655;
