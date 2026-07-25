@@ -156,11 +156,11 @@ nav a:hover {
 
 .welcome {
   color: #6f9655;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
 
 .hero-text h2 {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   line-height: 1.1;
   margin: 10px 0;
 }
@@ -171,11 +171,11 @@ nav a:hover {
 
 .hero-text h3 {
   color: #6f9655;
-  font-size: 0.95rem;
+  font-size: 0.65rem;
 }
 
 .hero-text p {
-  font-size: 0.95rem;
+  font-size: 0.55rem;
   max-width: 500px;
 }
 
