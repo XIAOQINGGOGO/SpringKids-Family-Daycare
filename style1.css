@@ -545,16 +545,6 @@ footer {
     width: 70%;
     max-width: 180px;
 }
-  .mobile-menu {
-    width: 200px !important;
-}
-
-.mobile-menu a {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 14px 16px !important;
-    text-align: left !important;
-}
 
 }
 
