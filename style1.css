@@ -420,13 +420,13 @@ footer {
 }
 
 .welcome{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .hero-text h2{
-    font-size: 2.6rem;
+    font-size: 2rem;
     line-height: 1.1;
     margin: 10px 0;
 }
