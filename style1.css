@@ -413,29 +413,35 @@ footer {
       border-bottom:1px solid #eee;
   }
 
-  .hero{
-      flex-direction:column;
-      text-align:center;
-      padding:30px 5%;
-  }
-  .hero-text h2{
-    font-size: 1.3rem !important;
+ .hero{
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 5%;
+}
+
+.welcome{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero-text h2{
+    font-size: 2.6rem;
     line-height: 1.1;
     margin: 10px 0;
 }
 
 .hero-text h3{
-    font-size: 0.65rem !important;
-}
-
-.welcome{
-    font-size: 1.1rem !important;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
 }
 
 .hero-text p{
-    font-size: 0.55rem !important;
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 320px;
+    margin: 0 auto;
 }
-
   .hero-buttons{
       justify-content:center;
       flex-wrap:wrap;
