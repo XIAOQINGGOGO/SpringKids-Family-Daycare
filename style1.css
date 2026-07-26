@@ -272,7 +272,38 @@ nav a:hover {
   color: #6f9655;
   margin-bottom: 10px;
 }
+.about-section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    text-align:left;
+}
 
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    width:100%;
+    max-width:420px;
+    border-radius:25px;
+    object-fit:cover;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.about-content{
+    flex:1.2;
+}
+
+.about-content h2{
+    margin-bottom:20px;
+}
+
+.about-content p{
+    margin:0;
+    line-height:1.8;
+}
 
 /* Gallery */
 .gallery-grid {
@@ -457,6 +488,15 @@ footer {
       height:300px;
       border-radius:30px;
   }
+  .about-section{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+}
+
+.about-image img{
+    max-width:300px;
+}
 
   .features{
       grid-template-columns:1fr;
