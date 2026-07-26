@@ -384,6 +384,13 @@ nav a:hover {
 .contact p {
   margin-bottom: 10px;
 }
+.wechat-qrcode{
+    display:block;
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    margin:20px auto;
+}
 
 footer {
   background: #4f5b43;
