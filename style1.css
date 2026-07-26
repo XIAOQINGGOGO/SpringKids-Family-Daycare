@@ -449,8 +449,12 @@ footer {
     display:none;
     position:fixed;
     top:95px;
-    right:0%;
-    left:auto !important;
+    right:16px;
+    left:auto;
+
+    width:220px;          /* Add this */
+    max-width:220px;      /* Add this */
+
     background:#fff;
     border-radius:12px;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
