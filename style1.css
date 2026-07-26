@@ -423,6 +423,8 @@ footer {
     font-size: 1.6rem;
     line-height: 1.1;
     margin: 10px 0;
+    margin-top: 16px;
+    margin-bottom: 18px;
    
 }
 
@@ -430,6 +432,8 @@ footer {
     font-size: 1.7rem;
     line-height: 1.1;
     margin: 10px 0;
+    margin-top: 16px;
+    margin-bottom: 18px;
 }
 
 .hero-text h3{
