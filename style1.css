@@ -61,26 +61,28 @@ body {
 }
 /* Mobile Menu */
 .mobile-menu{
-    display: none;
-    position: fixed;
-    top: 74px;
-    right: 15px;      /* Position on the right */
-    left: auto;       /* Remove left positioning */
-    width: 240px;     /* Set menu width */
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.15);
-    z-index: 999;
-    overflow: hidden;
+    display:none;
+    position:fixed;
+    top:95px;
+    right:5%;
+    width:200px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    z-index:999;
+    overflow:hidden;
 }
+
 .mobile-menu a{
-    display: block;
-    padding: 16px 20px;
-    text-align: left;
-    color: #333;
-    text-decoration: none;
-    border-bottom: 1px solid #eee;
-    margin: 0;
+    display:block;
+    width:100%;          /* Fill only the menu width */
+    padding:14px 16px;
+    text-align:left;
+    font-size:16px;
+    color:#333;
+    text-decoration:none;
+    border-bottom:1px solid #eee;
+    box-sizing:border-box;
 }
 
 .mobile-menu a:last-child{
