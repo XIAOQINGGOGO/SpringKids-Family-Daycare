@@ -445,13 +445,16 @@ footer {
       letter-spacing:2px;
   }
 
-  /*.mobile-menu{
+  .mobile-menu{
     display:none;
     position:fixed;
-    top:74px;
+    top:95px;
     right:5%;
-    left:auto;
-    width:220px;
+    left:auto !important;
+
+    width:200px !important;
+    max-width:200px !important;
+
     background:#fff;
     border-radius:12px;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
@@ -460,16 +463,11 @@ footer {
 }
   .mobile-menu a{
     display:block;
-    padding:14px 18px;
-    text-align:left;
-    color:#333;
-    text-decoration:none;
-    border-bottom:1px solid #eee;
-}*/
-.mobile-menu a{
-    margin:0;
     width:100%;
+    padding:14px 16px;
+    margin:0;
     box-sizing:border-box;
+    text-align:left;
 }
 .mobile-menu a:last-child{
     border-bottom:none;
