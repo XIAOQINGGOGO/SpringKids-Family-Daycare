@@ -422,6 +422,8 @@ footer {
 .welcome{
     font-size: 1.6rem;
     font-weight: 500;
+    line-height: 1.1;
+    margin: 10px 0;
     margin-bottom: 10px;
 }
 
