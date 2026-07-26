@@ -385,11 +385,22 @@ nav a:hover {
   margin-bottom: 10px;
 }
 .wechat-qrcode{
-    display:block;
-    width:180px;
-    height:180px;
-    object-fit:contain;
-    margin:20px auto;
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: 20px auto;
+}
+  .contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.wechat-section{
+    text-align: center;
+    flex: 0 0 220px;
 }
 
 footer {
@@ -548,7 +559,7 @@ footer {
      .gallery-grid{
       grid-template-columns:1fr;
   }
-  .wechat-qrcode{
+  /*.wechat-qrcode{
     display: block;
     width: 180px;
     height: 180px;
@@ -565,6 +576,6 @@ footer {
 .wechat-section{
     text-align: center;
     flex: 0 0 220px;
-}
+}*/
 }
 
