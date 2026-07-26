@@ -404,8 +404,12 @@ footer {
   }
 
   .navbar-right{
-      display:none;
-  }
+        display:flex;
+    }
+
+    #google_translate_element{
+        margin-top:15px;
+    }
 
   .navbar{
       display:flex;
