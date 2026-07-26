@@ -444,26 +444,30 @@ footer {
   }
 
   .mobile-menu{
-      display:none;
-      position:fixed;
-      top:95px;
-      left:0;
-      width:100%;
-      background:#fff;
-      box-shadow:0 6px 15px rgba(0,0,0,.08);
-      z-index:999;
-  }
-
+    display:none;
+    position:fixed;
+    top:74px;
+    right:5%;
+    left:auto;
+    width:220px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    z-index:999;
+    overflow:hidden;
+}
   .mobile-menu a{
-      display:block;
-      padding:16px;
-      text-align:center;
-      font-size:17px;
-      color:#333;
-      text-decoration:none;
-      border-bottom:1px solid #eee;
-  }
+    display:block;
+    padding:14px 18px;
+    text-align:left;
+    color:#333;
+    text-decoration:none;
+    border-bottom:1px solid #eee;
+}
 
+.mobile-menu a:last-child{
+    border-bottom:none;
+}
  .hero{
     flex-direction: column;
     text-align: center;
