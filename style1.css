@@ -420,7 +420,7 @@ footer {
 }
 
 .welcome{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -432,12 +432,12 @@ footer {
 }
 
 .hero-text h3{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 12px;
 }
 
 .hero-text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     max-width: 320px;
     margin: 0 auto;
