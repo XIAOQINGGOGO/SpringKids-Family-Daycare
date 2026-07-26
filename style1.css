@@ -43,8 +43,16 @@ body {
     color: #6f9655;
 }
 
+/* Add this */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Replace your existing .menu-toggle */
 .menu-toggle {
-    display: none;
+    display: block;
     background: none;
     border: none;
     font-size: 32px;
