@@ -43,19 +43,19 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 20px;      /* Space between image and text */
+    gap: 22px;      /* Space between image and text */
     flex-shrink: 0;
 }
 
 .logo-text {
     display: flex;
     flex-direction: column;
-    gap: 6px;       /* Space between SpringKids and FAMILY DAYCARE */
+    gap: 10px;       /* Space between SpringKids and FAMILY DAYCARE */
 }
 
 .logo-text h1 {
     margin: 0;
-    font-size: 1.5rem;   /* Slightly larger */
+    font-size: 1.8rem;   /* Slightly larger */
     color: #8BE28A;
     font-family: 'Pacifico', cursive;
     line-height: 1.2;
