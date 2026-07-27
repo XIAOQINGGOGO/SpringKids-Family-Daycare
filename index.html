@@ -367,13 +367,15 @@ function googleTranslateElementInit() {
   );
 
   // Mobile Translator
+ function googleTranslateElementInit() {
+
   new google.translate.TranslateElement(
     {
       pageLanguage: "en",
       includedLanguages: "en,zh-CN,es",
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE
     },
-    "mobile_translate"
+    "google_translate_element"
   );
 
 }
