@@ -480,12 +480,13 @@ footer {
     display:flex;
     align-items:center;
     gap:0px;
-    margin-right:-6px;
+    margin-right:-8px;
 }
 
 #google_translate_element{
     transform:scale(0.6);
     transform-origin:right center;
+    margin-right:-8px;
 }
 
 .menu-toggle{
