@@ -476,7 +476,7 @@ footer {
   .navbar-right{
         display:flex;
         align-items:center;
-        gap:10px;
+        gap:18px;
     }
     #google_translate_element{
         margin-top:15px;
