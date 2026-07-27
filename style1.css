@@ -62,7 +62,7 @@ body {
 .desktop-nav {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 
 .desktop-nav a {
