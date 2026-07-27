@@ -479,9 +479,9 @@ footer {
         gap:8px;
         flex-shrink:1;
     }
+  
     #google_translate_element{
-        margin-top:0px;
-       transform:scale(0.8);
+      transform:scale(0.5);
       transform-origin:right center;
       white-space: nowrap;
     }
