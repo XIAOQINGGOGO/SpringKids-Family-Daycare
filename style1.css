@@ -54,11 +54,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center the two text lines */
+    gap: 8px;     
 }
 
 .logo-text h1 {
     margin: 0;
-    font-size: 1.55rem;
+    font-size: 1.40rem;
     line-height: 1;
     color: #8BE28A;
     font-family: 'Pacifico', cursive;
@@ -66,8 +67,8 @@ body {
 
 .logo-text p {
     margin: 4px 0 0;
-    font-size: 0.9rem;
-    letter-spacing: 3px;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
     color: #555;
     line-height: 1;
 }
