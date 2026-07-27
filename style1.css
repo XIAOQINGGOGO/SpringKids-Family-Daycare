@@ -479,19 +479,17 @@ footer {
 .navbar-right{
     display:flex;
     align-items:center;
-    gap:2px;
+    gap:0px;
     margin-right:-6px;
 }
 
 #google_translate_element{
     transform:scale(0.6);
     transform-origin:right center;
-    white-space:nowrap;
 }
 
 .menu-toggle{
-    display:block;
-    margin-left:-4px;
+    margin-left:-6px;
 }
   .logo{
       flex-direction:row;
