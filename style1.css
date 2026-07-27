@@ -48,14 +48,14 @@ body {
 
 .logo-text h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #8BE28A;
     font-family: 'Pacifico', cursive;
 }
 
 .logo-text p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 4px;
     color: #555;
 }
