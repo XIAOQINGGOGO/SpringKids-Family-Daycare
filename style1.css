@@ -129,7 +129,7 @@ body {
     background: #f7f9ef;
 }
 
-.logo {
+/*.logo {
   display: flex;
   align-items: center;
   gap: 0px;
@@ -162,7 +162,7 @@ body {
   font-size: 0.8rem;
   letter-spacing: 3px;
   margin: 0;
-}
+}*/
 
 
 nav a {
