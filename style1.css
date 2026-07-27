@@ -476,10 +476,14 @@ footer {
   .navbar-right{
         display:flex;
         align-items:center;
-        gap:18px;
+        gap:8px;
+        flex-shrink:1;
     }
     #google_translate_element{
-        margin-top:15px;
+        margin-top:0px;
+       transform:scale(0.8);
+      transform-origin:right center;
+      white-space: nowrap;
     }
 
   .navbar{
