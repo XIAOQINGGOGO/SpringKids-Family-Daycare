@@ -54,7 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center the two text lines */
-    gap: 8px;     
+    gap: 10px;     
 }
 
 .logo-text h1 {
