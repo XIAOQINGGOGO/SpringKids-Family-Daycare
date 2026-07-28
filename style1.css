@@ -233,7 +233,7 @@ nav a:hover {
 }
 
 .hero-text h2 {
-    font-size: 2rem;
+    font-size: 1.65rem;
     line-height: 1.05;
     margin: 0 0 18px;
 }
@@ -243,7 +243,7 @@ nav a:hover {
 }
 
 .hero-text h3 {
-    color: #6f9655;
+    color: #222;
     font-size: 1.4rem;
     margin-bottom: 16px;
 }
